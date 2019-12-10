@@ -96,5 +96,17 @@
       }
     }
   ],
-  "props": []
+  "props": [
+    {
+      "key": "src/gatsby-theme-docz/wrapper.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Wrapper",
+          "methods": [],
+          "actualName": "Wrapper"
+        }
+      ]
+    }
+  ]
 }

@@ -9,6 +9,14 @@
     "themeConfig": {
       "styles": {
         "h2": {
+          "color": "red"
+        }
+      },
+      "fonts": {
+        "body": "serif"
+      },
+      "style": {
+        "h2": {
           "color": "red",
           "fontWeight": 500
         }

@@ -10,7 +10,7 @@
       "fonts": {
         "body": "serif"
       },
-      "style": {
+      "styles": {
         "h2": {
           "color": "red",
           "fontWeight": 500
@@ -25,7 +25,7 @@
       "value": {
         "id": "04c6e90faac2675aa89e2176d2eec7d8",
         "filepath": "README.md",
-        "fullpath": "/Users/yihwankim/Desktop/gatsby-docz-flicker-issue/README.md",
+        "fullpath": "/private/tmp/gatsby-docz-flicker-issue/README.md",
         "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/README.md",
         "slug": "readme",
         "route": "/readme",
@@ -62,7 +62,7 @@
         "route": "/",
         "id": "73498ad0e1e62a714b08085d318f9de1",
         "filepath": "docs/index.mdx",
-        "fullpath": "/Users/yihwankim/Desktop/gatsby-docz-flicker-issue/docs/index.mdx",
+        "fullpath": "/private/tmp/gatsby-docz-flicker-issue/docs/index.mdx",
         "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/index.mdx",
         "slug": "docs-index",
         "menu": "",
@@ -87,7 +87,7 @@
         "route": "/other",
         "id": "4ff9b4c47c86c7366e1cb8f2118d0991",
         "filepath": "docs/otherFolder/index.mdx",
-        "fullpath": "/Users/yihwankim/Desktop/gatsby-docz-flicker-issue/docs/otherFolder/index.mdx",
+        "fullpath": "/private/tmp/gatsby-docz-flicker-issue/docs/otherFolder/index.mdx",
         "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/otherFolder/index.mdx",
         "slug": "docs-other-folder-index",
         "menu": "",

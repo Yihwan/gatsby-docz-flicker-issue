@@ -6,7 +6,14 @@
     "version": "0.1.0",
     "repository": "https://github.com/gatsbyjs/gatsby-starter-default",
     "native": false,
-    "themeConfig": {},
+    "themeConfig": {
+      "styles": {
+        "h2": {
+          "color": "red",
+          "fontWeight": 500
+        }
+      }
+    },
     "separator": "-"
   },
   "entries": [
@@ -15,7 +22,7 @@
       "value": {
         "id": "04c6e90faac2675aa89e2176d2eec7d8",
         "filepath": "README.md",
-        "fullpath": "/Users/yihwankim/Desktop/my-gatsby-site-with-docz/README.md",
+        "fullpath": "/Users/yihwankim/Desktop/gatsby-docz-flicker-issue/README.md",
         "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/README.md",
         "slug": "readme",
         "route": "/readme",
@@ -52,7 +59,7 @@
         "route": "/",
         "id": "73498ad0e1e62a714b08085d318f9de1",
         "filepath": "docs/index.mdx",
-        "fullpath": "/Users/yihwankim/Desktop/my-gatsby-site-with-docz/docs/index.mdx",
+        "fullpath": "/Users/yihwankim/Desktop/gatsby-docz-flicker-issue/docs/index.mdx",
         "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/index.mdx",
         "slug": "docs-index",
         "menu": "",
@@ -77,7 +84,7 @@
         "route": "/other",
         "id": "4ff9b4c47c86c7366e1cb8f2118d0991",
         "filepath": "docs/otherFolder/index.mdx",
-        "fullpath": "/Users/yihwankim/Desktop/my-gatsby-site-with-docz/docs/otherFolder/index.mdx",
+        "fullpath": "/Users/yihwankim/Desktop/gatsby-docz-flicker-issue/docs/otherFolder/index.mdx",
         "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/otherFolder/index.mdx",
         "slug": "docs-other-folder-index",
         "menu": "",
@@ -98,13 +105,257 @@
   ],
   "props": [
     {
-      "key": "src/gatsby-theme-docz/wrapper.js",
+      "key": "src/gatsby-theme-docz/index.js",
       "value": [
         {
           "description": "",
-          "displayName": "Wrapper",
+          "displayName": "Theme",
           "methods": [],
-          "actualName": "Wrapper"
+          "actualName": "Theme"
+        }
+      ]
+    },
+    {
+      "key": "src/gatsby-theme-docz/base/Layout.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Layout",
+          "methods": [],
+          "actualName": "Layout",
+          "props": {
+            "color": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": ""
+            },
+            "children": {
+              "type": {
+                "name": "node"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/gatsby-theme-docz/base/Seo.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "SEO",
+          "methods": [],
+          "actualName": "SEO",
+          "props": {
+            "description": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": ""
+            },
+            "lang": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "`en`",
+                "computed": false
+              }
+            },
+            "meta": {
+              "type": {
+                "name": "array"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "[]",
+                "computed": false
+              }
+            },
+            "keywords": {
+              "type": {
+                "name": "arrayOf",
+                "value": {
+                  "name": "string"
+                }
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "[]",
+                "computed": false
+              }
+            },
+            "title": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/gatsby-theme-docz/components/Code/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Code",
+          "methods": [],
+          "actualName": "Code"
+        }
+      ]
+    },
+    {
+      "key": "src/gatsby-theme-docz/components/Header/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Header",
+          "methods": [],
+          "actualName": "Header"
+        }
+      ]
+    },
+    {
+      "key": "src/gatsby-theme-docz/components/Layout/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Layout",
+          "methods": [],
+          "actualName": "Layout"
+        }
+      ]
+    },
+    {
+      "key": "src/gatsby-theme-docz/components/Logo/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Logo",
+          "methods": [],
+          "actualName": "Logo"
+        }
+      ]
+    },
+    {
+      "key": "src/gatsby-theme-docz/components/NavGroup/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "NavGroup",
+          "methods": [],
+          "actualName": "NavGroup"
+        }
+      ]
+    },
+    {
+      "key": "src/gatsby-theme-docz/components/NavLink/index.js",
+      "value": [
+        {
+          "description": "",
+          "methods": [],
+          "actualName": ""
+        }
+      ]
+    },
+    {
+      "key": "src/gatsby-theme-docz/components/NavSearch/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "NavSearch",
+          "methods": [],
+          "actualName": "NavSearch"
+        }
+      ]
+    },
+    {
+      "key": "src/gatsby-theme-docz/components/Playground/IframeWrapper.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "IframeWrapper",
+          "methods": [],
+          "actualName": "IframeWrapper",
+          "props": {
+            "style": {
+              "defaultValue": {
+                "value": "{}",
+                "computed": false
+              },
+              "required": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/gatsby-theme-docz/components/Playground/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Playground",
+          "methods": [],
+          "actualName": "Playground",
+          "props": {
+            "useScoping": {
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              },
+              "required": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/gatsby-theme-docz/components/Pre/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Pre",
+          "methods": [],
+          "actualName": "Pre"
+        }
+      ]
+    },
+    {
+      "key": "src/gatsby-theme-docz/components/Props/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Prop",
+          "methods": [],
+          "actualName": "Prop"
+        },
+        {
+          "description": "",
+          "displayName": "Props",
+          "methods": [],
+          "actualName": "Props"
+        }
+      ]
+    },
+    {
+      "key": "src/gatsby-theme-docz/components/Sidebar/index.js",
+      "value": [
+        {
+          "description": "",
+          "methods": [],
+          "actualName": ""
         }
       ]
     }

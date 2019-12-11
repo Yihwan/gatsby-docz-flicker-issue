@@ -1,13 +1,13 @@
 export default {
   themeConfig: {
     fonts: {
-      body: 'serif',
+      body: "serif",
     },
-    style: {
+    styles: {
       h2: {
-        color: 'red',
+        color: "red",
         fontWeight: 500,
-      }, 
-    }
-  }
+      },
+    },
+  },
 }
